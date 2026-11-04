@@ -2,12 +2,12 @@
 <style>:root{--bg:#fff;--fg:#111;--mut:#666;--line:#ddd;--ok:#0a7d32;--bad:#b00020}@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#eee;--mut:#9a9a9a;--line:#333;--ok:#4cd07d;--bad:#ff6b81}}body{background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,sans-serif;max-width:960px;margin:0 auto;padding:16px}table{border-collapse:collapse;width:100%;margin:8px 0}td,th{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left;font-size:13px}code,pre{font:12px ui-monospace,monospace;word-break:break-all;white-space:pre-wrap}.mut{color:var(--mut)}.ok{color:var(--ok)}.bad{color:var(--bad)}details{margin:6px 0}section{border-top:1px solid var(--line);padding-top:8px;margin-top:16px}</style>
 <h1>Proof of picks</h1>
 <p>Every build is sealed before the games with a SHA-256 fingerprint chained to the previous one. Removing, reordering or editing any past build breaks every later link.</p>
-<p><b>Chain head:</b> <code>37dbfbbf0b178a91038bbc1b3e9474cebd1fbe3e683380c0b29d46d9fdb044f8</code><br><b>Integrity:</b> <span class='ok'>all receipts and links verify</span><br><span class='mut'>Generated 2026-11-03T14:01:06+00:00</span></p>
+<p><b>Chain head:</b> <code>fac292d38f26878fbeee4f087299cd2b46b9173b0460faea202811f3ca5c5956</code><br><b>Integrity:</b> <span class='ok'>all receipts and links verify</span><br><span class='mut'>Generated 2026-11-04T14:01:24+00:00</span></p>
 <h2>Forecasts vs results</h2><table>
-<tr><td>Sealed slates / lineups</td><td>31 / 248</td></tr>
-<tr><td>Lineups with final scores</td><td>248</td></tr>
+<tr><td>Sealed slates / lineups</td><td>32 / 268</td></tr>
+<tr><td>Lineups with final scores</td><td>260</td></tr>
 <tr><td>Lineups with a known contest finish</td><td>15</td></tr>
-<tr><td>Lineup projection: average miss / bias</td><td>33.2 pts / +27.1 pts</td></tr>
+<tr><td>Lineup projection: average miss / bias</td><td>43.1 pts / +37.3 pts</td></tr>
 <tr><td>Top-1% finishes: forecast vs actual</td><td>5.0% vs 0.0%</td></tr>
 </table>
 <table><tr><th>Forecast top-1% chance</th><th>Lineups</th><th>Average forecast</th><th>Actually top 1%</th></tr>
@@ -16,6 +16,7 @@
 <tr><td>(0.05, 0.1]</td><td>8</td><td>7.5%</td><td>0.0%</td></tr>
 </table>
 <h2>Every sealed build</h2><p class='mut'>To check one: copy its sealed text exactly and SHA-256 it (for example <code>printf '%s' 'TEXT' | sha256sum</code>). The result must equal its hash, and its <code>prev</code> must equal the hash of the build before it.</p>
+<section><h3>nba-20261104-085909</h3><p class='mut'>Sealed 2026-11-04T13:59:10+00:00 · lineups revealed after the games</p><p>Hash <code>fac292d38f26878fbeee4f087299cd2b46b9173b0460faea202811f3ca5c5956</code><br>Prev <code>37dbfbbf0b178a91038bbc1b3e9474cebd1fbe3e683380c0b29d46d9fdb044f8</code></p></section>
 <section><h3>nfl-20261102-113902</h3><p class='mut'>Sealed 2026-11-02T16:39:03+00:00 · NFL · 6 slots · $3 · 31,746 entries · fdfs 0.2.0</p><p>Hash <code>37dbfbbf0b178a91038bbc1b3e9474cebd1fbe3e683380c0b29d46d9fdb044f8</code><br>Prev <code>c5c92228929f3f345d4c1014a85ca23344f5519cca30b933a89a3ed3f6681cf2</code></p><table><tr><th>#</th><th>Players</th><th>Proj</th><th>Top-1% chance</th><th>Actual</th><th>Finish</th></tr>
 <tr><td>1</td><td>Emanuel Wilson, Jaxon Smith-Njigba, Cairo Santos, Caleb Williams, Sam Darnold, Tory Horton</td><td>78.3</td><td>3.8%</td><td>73.4</td><td>–</td></tr>
 <tr><td>2</td><td>D&#x27;Andre Swift, Sam Darnold, Jaxon Smith-Njigba, Chicago Bears, Jason Myers, Cairo Santos</td><td>83.5</td><td>3.5%</td><td>104.7</td><td>–</td></tr>
